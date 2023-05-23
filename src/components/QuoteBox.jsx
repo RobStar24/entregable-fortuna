@@ -4,7 +4,7 @@ const QuoteBox = ({ phrase, handleChangeQuote }) => {
   return (
     <div className="quoteBox__container">
       <button className="quoteBox__btn" onClick={handleChangeQuote}>
-        Try your luck
+        Get your wisdom
       </button>
 
       <section className="quoteBox">

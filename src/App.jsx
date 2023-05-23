@@ -20,14 +20,14 @@ function App() {
 
     <section className='app__container'>
 
-      <h1 className='text'>FORTUNE COOKIES</h1>
+      <h1 className='text'>Find Your Inner Peace</h1>
 
       <div className='paper'>     
         <QuoteBox className='content' handleChangeQuote={handleChangeQuote} phrase={quote.phrase} />
       </div> 
       
       <footer>
-        <h3>Author: {quote.author}</h3>
+        <h3>{quote.author}</h3>
       </footer>
 
     </section>
